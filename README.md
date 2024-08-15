@@ -1,6 +1,39 @@
 # Object-Oriented Programming Concepts in Java
 
-## 1. Inheritance
+# Object-Oriented Programming Concepts in Java
+
+## 1. Class and Object
+
+**Description:** 
+- **Class:** A blueprint or template for creating objects, defining their data and behavior.
+- **Object:** An instance of a class, representing a specific implementation of the class blueprint.
+
+**Purpose:** 
+- **Class:** Provides a structure for organizing code and defining the properties and methods.
+- **Object:** Represents real-world entities with attributes and behaviors, making the code modular and reusable.
+
+**How to Achieve:** Define a class using the `class` keyword and create objects using the `new` keyword.
+
+**Example:**
+```java
+class Car {
+    String brand;
+    String model;
+    int year;
+
+    void start() {
+        System.out.println("Car is starting");
+    }
+}
+
+// Usage
+Car myCar = new Car();
+myCar.brand = "Toyota";
+myCar.model = "Corolla";
+myCar.year = 2020;
+myCar.start(); // Outputs: Car is starting
+```
+## 2. Inheritance
 **Description:** Allows a class to inherit fields and methods from another class, creating a parent-child relationship.
 
 **Purpose:** Promotes code reusability and logical hierarchy.
@@ -26,7 +59,7 @@ Car car = new Car();
 car.start(); // Inherited method
 car.honk();  // Own method
 ```
-## 2. Abstraction
+## 3. Abstraction
 
 **Description:** Hides the complex reality and exposes only the necessary parts.
 
@@ -51,7 +84,7 @@ class Circle implements Shape {
 Shape shape = new Circle();
 shape.draw(); // Outputs: Drawing a circle
 ```
-## 3. Polymorphism
+## 4. Polymorphism
 
 **Description:** Allows objects to be treated as instances of their parent class rather than their actual class.
 
@@ -87,7 +120,7 @@ Animal myDog = new Dog();
 myCat.makeSound(); // Outputs: Cat meows
 myDog.makeSound(); // Outputs: Dog barks
 ```
-## 4. Encapsulation
+## 5. Encapsulation
 
 **Description:** Bundles data and methods that manipulate the data within a class, hiding the internal state from outside.
 
@@ -116,7 +149,7 @@ Account account = new Account();
 account.deposit(100);
 System.out.println(account.getBalance()); // Outputs: 100
 ```
-## 5. Aggregation
+## 6. Aggregation
 
 **Description:** Models a "has-a" relationship between classes where the lifetime of the contained objects is independent of the container.
 
@@ -153,7 +186,7 @@ employee.name = "John Doe";
 department.addEmployee(employee);
 System.out.println(department.getEmployees().get(0).name); // Outputs: John Doe
 ```
-## 6. Composition
+## 7. Composition
 
 **Description:** Represents a "part-of" relationship where the contained objects are created and destroyed along with the container object.
 
