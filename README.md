@@ -1,7 +1,5 @@
 # Object-Oriented Programming Concepts in Java
 
-# Object-Oriented Programming Concepts in Java
-
 ## 1. Class and Object
 
 **Description:** 
