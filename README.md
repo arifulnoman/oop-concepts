@@ -791,7 +791,7 @@ public void process() {
 - Incremental Improvements: By refactoring the code to replace magic numbers with named constants (DEFAULT_VALUE), programmers make the code more readable and maintainable.
 - Cleaner Code: The Boy Scout Rule encourages leaving the code better than it was found, which fosters a habit of continuous improvement.
 - Sustainable Codebase: Regularly improving and cleaning up code ensures it remains healthy and manageable over time, preventing technical debt and decay.
-## Chapter 2 - Functions
+## Chapter 2 - Meaningful Names
 ### 1. Use Intention-Revealing Names
 
 **Purpose:** Choose names that clearly convey the purpose, function, and usage of variables, functions, and classes.
