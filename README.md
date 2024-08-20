@@ -1737,7 +1737,7 @@ public void processOrder(Order order) {
 
 - Single Entry/Exit Point: The function has a clear and predictable flow by consolidating exit points.
 - Improved Readability: Easier to understand and maintain code structure without jumps or breaks.
-## Chapter 3 - Functions
+## Chapter 4 - Comments
 ### 1. Comments Are a Compensation for Bad Code
 
 **Purpose:** Use comments to explain code when it is not clear on its own. Aim to write code that is self-explanatory, reducing the need for comments.
